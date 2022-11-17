@@ -3,7 +3,8 @@ import java.util.*;
 public class Eleve {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int size = 3;
+        System.out.print("Entrez la taille du tableau : ");
+        int size = sc.nextInt();
         String TELEVE[] = new String[size];
         double TMOY[] = new double[size];
         String TADM[] = new String[size];
